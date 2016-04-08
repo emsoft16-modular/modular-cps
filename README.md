@@ -1,5 +1,14 @@
-VeriDrone
+Modular Deductive Verification of Sampled-Data Systems
 ==========
+
+This anonymized repository contains the code related to the EMSOFT16 submission "Modular Deductive Verification of Sampled-Data Systems". The sections below describe the dependencies needed to build this repository. Once these dependencies are installed, simply run ```make``` in the root directory.
+
+Directory Structure
+-------------------
+This project contains three directories:
+
+1. logic - our embedding of LTL, proof rules, automation, and some arithmetic facts
+2. examples - our Sys abstraction and proof rules for our Sys and System abstractions (System.v) as well as various systems specified and verified using Sys. The proof rules for progress and preservation reside in examples/System.v.
 
 Dependencies
 ------------
@@ -21,10 +30,3 @@ This development uses Coq 8.5. All of the Coq dependencies, along with Coq itsel
 - coq-ext-lib
 - coq-charge-core
 - coq-smt-check
-
-Directory Structure
--------------------
-This project contains three directories:
-
-1. logic - our embedding of LTL, proof rules, automation, and some arithmetic facts
-2. examples - our Sys abstraction and proof rules for our Sys (System.v) as well as various systems specified and verified using Sys.
