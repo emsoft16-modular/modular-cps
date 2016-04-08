@@ -1,0 +1,15 @@
+coq-ext-lib
+Charge
+Makefile.coq
+*.glob
+*.v.d
+*.vo
+*~
+*.cmi
+*.cmo
+*.cmx
+*.cmxs
+*.o
+*.d
+*.aux
+*/#*
