@@ -9,6 +9,7 @@ This project contains three directories:
 
 1. logic - our embedding of LTL, proof rules, automation, and some arithmetic facts
 2. examples - our Sys abstraction and proof rules for our Sys and System abstractions (System.v) as well as various systems specified and verified using Sys. The proof rules for progress and preservation reside in examples/System.v.
+3. model-checking - the models that we ran through PHAVer, dReach, and Flow*.
 
 Dependencies
 ------------
