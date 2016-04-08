@@ -3,6 +3,8 @@ Modular Deductive Verification of Sampled-Data Systems
 
 This anonymized repository contains the code related to the EMSOFT16 submission "Modular Deductive Verification of Sampled-Data Systems". The sections below describe the dependencies needed to build this repository. Once these dependencies are installed, simply run ```make``` in the root directory.
 
+This repository also contains an anonymized video of one of our flights (donut-flight.mp4). It shows us flying a quadcopter with a verified vertical donut geo-fence. The quadcopter can fly up and around the inner hole but cannot get inside.
+
 Directory Structure
 -------------------
 This project contains three directories:
